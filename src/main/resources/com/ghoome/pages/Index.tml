@@ -1,0 +1,15 @@
+<html t:type="layout" title="${message:page.index.title}"
+	xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd"
+	xmlns:p="tapestry:parameter">
+<br />
+<br />
+<t:form t:id="indexForm">
+	<t:submit value="发布测试消息" class="btn btn-large" />
+</t:form>
+
+<t:actionlink t:id="addPerson" class="btn btn-large">添加测试数据</t:actionlink>
+&nbsp;&nbsp;
+<t:actionlink t:id="queryPerson" class="btn btn-large">获取数据测试</t:actionlink>
+&nbsp;&nbsp;
+<t:actionlink t:id="updatePerson" class="btn btn-large">更新数据测试</t:actionlink>
+</html>
